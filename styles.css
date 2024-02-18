@@ -1,0 +1,152 @@
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "GTWalsheim";
+  src: url("./GTWalsheim-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "GTWalsheim";
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 40%;
+  margin: 60px auto 0 auto;
+  padding: 20px;
+  min-height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#form {
+  margin-top: 20px;
+}
+
+#form input,
+#form > textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#form textarea {
+  resize: none;
+}
+
+#form input,
+#form textarea {
+  padding: 5px 10px;
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 5px;
+  background-color: rgb(248, 248, 248);
+}
+
+#form input:focus,
+#form textarea:focus {
+  outline: none;
+}
+
+.submit-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit-flex button {
+  flex: 1;
+  padding: 10px 10px;
+  color: white;
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 5px;
+  font-family: "GTWalsheim";
+  background-color: black;
+  font-weight: bold;
+}
+
+input::placeholder,
+#form textarea {
+  font-family: "GTWalsheim";
+  color: rgb(150, 150, 150);
+}
+
+hr.myhrline {
+  margin: 25px 0;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.bookmark-lists {
+  margin: 15px 0;
+
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.list {
+  border-left: 5px solid rgb(139, 137, 137);
+  padding: 5px 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.action button {
+  padding: 3px 10px;
+  font-family: "GTWalsheim";
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.open {
+  background-color: rgb(18, 90, 72);
+}
+
+.edit {
+  background-color: rgb(17, 17, 124);
+}
+
+.delete {
+  background-color: brown;
+}
+
+.detail h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.detail p {
+  color: rgb(94, 94, 94);
+}
