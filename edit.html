@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./script.js" defer></script>
+    <script src="./edit.js" defer></script>
     <title>JS CRUD using Localstorage</title>
   </head>
   <body>
     <div class="container">
-      <h1>Bookmark Manager</h1>
+      <h1>Edit book Mark</h1>
       <form id="form" action="">
         <div class="submit-flex">
           <input type="text" id="title" placeholder="Title" />
@@ -18,25 +18,10 @@
         <textarea name="" id="description" rows="5">Description</textarea>
         <div class="submit-flex">
           <button type="submit">Save</button>
-          <button type="reset" id="reset">Clear</button>
+          <button type="reset" id="reset">Cancel</button>
         </div>
       </form>
       <hr class="myhrline" />
-      <h2>All bookmarks</h2>
-      <div id="bookmark-lists">
-        <!-- <div class="list">
-          <div class="detail">
-            <h3 class="title">This is a title</h3>
-            <p class="url">this is a url</p>
-            <p class="desc">this is a description</p>
-          </div>
-          <div class="action">
-            <button class="open">Open</button>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </div>
-        </div> -->
-      </div>
     </div>
   </body>
 </html>

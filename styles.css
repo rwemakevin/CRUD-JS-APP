@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  width: 40%;
+  width: 60%;
   margin: 60px auto 0 auto;
   padding: 20px;
   min-height: 400px;
@@ -95,7 +95,7 @@ h2 {
   font-size: 1.2rem;
 }
 
-.bookmark-lists {
+#bookmark-lists {
   margin: 15px 0;
 
   background-color: whitesmoke;
